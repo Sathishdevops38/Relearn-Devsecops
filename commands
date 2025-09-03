@@ -1,0 +1,15 @@
+clear----> To clear current screen
+ls -l----> list subdirectories with permissions
+pwd----> print working directory
+exit---> to exit from the ssh connection/terminal
+ls -lr----> list all file in descending order
+ls -ltr----> list all files in descnding order with latest time
+ls -lt----> list all files with latest time
+mkdir learn---> to create directory latest time
+cp devops/example.txt learn/--->  copy single file to learn directory 
+ls learn/  ------> list  files/directories of learn
+for i in {1..10}; do touch learn/$i.txt; done;---> to create mutiple files using for loop script
+rm learn/i.txt --> to remove single file
+for i in {1..10}; do echo "hello world to file$i" >> learn/$i.txt; done; ----> to add the content to the files using for loop script
+cat learn/1.txt----> to check content of the 1.txt file
+
